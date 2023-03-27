@@ -1,5 +1,5 @@
 <?php
-$prueba = "prueba";
+$prueba = "prueba"
 echo "esto es una prueba";
 
 for( $i = 0; $i < 100; $i++ )
