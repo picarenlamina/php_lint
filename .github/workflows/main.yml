@@ -1,9 +1,5 @@
-# Source: https://github.com/marketplace/actions/php-lint
-name: PHP Linting
-on: push
-jobs:
-  phplint:
-    runs-on: ubuntu-latest
-    steps:
-        - uses: actions/checkout@v1
-        - uses: michaelw90/PHP-Lint@master
+# Source: https://github.com/marketplace/actions/php-syntax-checker-lint
+- name: PHP Syntax Checker (Lint)
+  uses: StephaneBour/actions-php-lint@7.4
+  with:
+    dir: './src'
